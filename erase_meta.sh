@@ -33,7 +33,7 @@ main() {
     zenity --question 
 }
 while true; do
-  ans=$(zenity --info --title 'Metadata Eraser for PDF' \
+  ans=$(zenity --info --title 'Metadata Eraser' \
         --text 'Wanna erase any meta?' \
         --width=350 \
         --height=100 \
